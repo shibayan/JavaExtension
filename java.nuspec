@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>java</id>
+        <title>Java Extension</title>
+        <version>1.8.0.74</version>
+        <authors>shibayan</authors>
+        <projectUrl>https://github.com/shibayan/JavaExtension</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Java Extension for Azure Web Apps</description>
+        <tags>java</tags>
+    </metadata>
+    <files>
+        <file src="**" target="content" />
+    </files>
+</package>

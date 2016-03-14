@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.webServer>
+    <runtime xdt:Transform="Insert">
+      <environmentVariables>
+        <add name="JAVA_HOME" value="%XDT_EXTENSIONPATH%\jdk1.8.0_74" />
+      </environmentVariables>
+    </runtime>
+  </system.webServer>
+</configuration>
