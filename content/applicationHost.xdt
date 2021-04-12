@@ -3,7 +3,7 @@
   <system.webServer>
     <runtime xdt:Transform="Insert">
       <environmentVariables>
-        <add name="JAVA_HOME" value="%XDT_EXTENSIONPATH%\jdk1.8.0_74" />
+        <add name="JAVA_HOME" value="%XDT_EXTENSIONPATH%\jdk-11.0.10+9" />
       </environmentVariables>
     </runtime>
   </system.webServer>
